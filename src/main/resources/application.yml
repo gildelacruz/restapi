@@ -1,0 +1,22 @@
+# spring:
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          github:
+#            clientId: bdf0db08efba9fb3ae91
+#            clientSecret: 208a48a2116dc5804d65572cf46d782929963a08
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/musicdbch7?useSSL=false&serverTimezone=US/Eastern
+    username: prospring5
+    password: prospring5
+
+
+  jackson:
+    default-property-inclusion: non_null
